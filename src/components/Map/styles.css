@@ -1,0 +1,45 @@
+.container {
+    display: inline-flex;
+    border: 1px solid rgba(42, 92, 191, 0.5);
+    z-index: 1000;
+    border-style: dashed;
+    border-radius: 19px;
+    color: black;
+    height: 37px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    background: transparent;
+}
+
+.container > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > div:first-child {
+    margin-left: 18px;
+}
+
+.container > div:last-child {
+    margin-right: 8px;
+}
+
+.background {
+    position: absolute;
+    top: -1px;
+    left: -19px;
+    height: calc(100% + 2px);
+    z-index: -1;
+    border-radius: 19px;
+}
+
+.not-good {
+    color: rgba(42, 92, 191, 0.5);
+}
+
+.not-good > div {
+    background-color: rgba(42, 92, 191, 0.5);
+}

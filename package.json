@@ -1,0 +1,21 @@
+{
+  "name": "@vladislavkovaliov/map",
+  "version": "1.0.1",
+  "private": false,
+  "type": "module",
+  "main": "./src/index.ts",
+  "author": "Vladislav Kovaliov",
+  "email": "v.v.kovaliov@gmail.com",
+  "homepage": "https://github.com/vladislavkovaliov/map#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladislavkovaliov/map.git"
+  },
+  "peerDependencies": {
+    "react": ">= 16.3.0",
+    "react-dom": ">= 16.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "*"
+  }
+}
