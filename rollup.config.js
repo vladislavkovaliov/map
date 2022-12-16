@@ -1,7 +1,7 @@
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
-import external from 'rollup-plugin-peer-deps-external';
+import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import dts from "rollup-plugin-dts";
 
 import postcss from "rollup-plugin-postcss";
@@ -23,7 +23,10 @@ export default [
             },
         ],
         plugins: [
-            external(),
+            peerDepsExternal([
+                "react",
+                "react-dom"
+            ]),
             resolve(),
             commonjs(),
             typescript({ tsconfig: "./tsconfig.json" }),
