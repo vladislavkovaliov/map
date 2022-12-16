@@ -98,16 +98,16 @@
 
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true ,                                /* Skip type checking all .d.ts files. */
-    "module": "commonjs",
-    "jsx": "react",
-    "target": "es6",
-    "esModuleInterop": true,
-    "lib": ["es2015", "dom"],
-    "outDir": "./dist/",
-    "sourceMap": true,
-    "declaration": true
-  },
+      "skipLibCheck": true ,                                /* Skip type checking all .d.ts files. */
+      "module": "commonjs",
+      "jsx": "react",
+      "target": "es6",
+      "esModuleInterop": true,
+      "lib": ["es2015", "dom"],
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "declaration": true
+    },
     "include": ["src"],
     "exclude": ["node_modules", "dist"]
 }

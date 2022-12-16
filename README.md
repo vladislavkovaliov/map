@@ -5,7 +5,7 @@
 ## How to use?
 
 ```
-import { Map } from "@vvkovaliov/map";
+import { Map } from "@vladislavkovaliov/map";
 
 function App() {
     return (
